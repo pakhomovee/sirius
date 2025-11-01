@@ -27,6 +27,7 @@ Notes
 - Files are small and independent; each demonstrates one idea.
 
 Performance-oriented demos
+- 05_hash_constexpr_benchmark.cpp — rolling-hash with constexpr p/mod vs runtime params
 - 23_set_multiset_perf.cpp — multiset::count linear in duplicates; erase by iterator vs by value
 - 24_map_erase_lower_bound.cpp — map erase by iterator; erase range using lower_bound
 - 26_set_distance_linear.cpp — std::distance on set is linear; repeated to amplify time
